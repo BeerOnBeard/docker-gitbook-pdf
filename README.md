@@ -1,4 +1,4 @@
-# docker-gitbook-pdf
+# Docker GitBook PDF
 A Docker wrapper for generating GitBook PDFs using Calibre
 ## Example
 To run it as a command that will wait until the PDF is generated, run the following command:
