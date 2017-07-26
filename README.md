@@ -3,7 +3,11 @@ A Docker wrapper for generating GitBook PDFs using Calibre
 ## Example
 To run it as a command that will wait until the PDF is generated, run the following command:
 ```bash
-docker run -v /my/gitbook/folder:/book -v /my/pdf/output:/pdf -e PDF_NAME=ItIsABook.pdf beeronbeard/docker-gitbook-pdf
+docker run \
+-v /my/gitbook/folder:/book \
+-v /my/pdf/output:/pdf \
+-e PDF_NAME=ItIsABook.pdf \
+beeronbeard/docker-gitbook-pdf
  ```
 
 You can also run it as a daemon that will run the command in the background using `-d`.
