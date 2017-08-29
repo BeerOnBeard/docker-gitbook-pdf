@@ -1,3 +1,5 @@
+[![Docker Build Statu](https://img.shields.io/docker/build/beeronbeard/docker-gitbook-pdf.svg?style=flat-square)](https://hub.docker.com/r/beeronbeard/docker-gitbook-pdf/)
+
 # Docker GitBook PDF
 A Docker wrapper for generating GitBook PDFs using Calibre
 ## Example
