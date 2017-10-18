@@ -9,5 +9,6 @@ ENV PDF_NAME Book.pdf
 
 VOLUME ["/book", "/pdf"]
 
-CMD gitbook install && \
+CMD cd /book && \
+    gitbook install && \
     gitbook pdf /book /pdf/$PDF_NAME
